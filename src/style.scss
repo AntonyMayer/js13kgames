@@ -1,0 +1,537 @@
+$size: 30vmin;
+$navs-width: 5vmax;
+$navs-height: 50vmin;
+$timer-element-width: 2px;
+
+$bg: url('data:image/jpeg;base64,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
+rkJggg==') no-repeat;
+
+@mixin decor($position, $clip) {
+  background-size: $size auto;
+  position: absolute;
+  clip-path: $clip;
+  width: calc(100% + 1px);
+  height: calc(100% + 1px);
+  @if $position == left {
+    left: -100%;
+    top: 0;
+    height: 100%;
+  }
+  @if $position == right {
+    right: 0;
+    top: 0;
+    height: 100%;
+  }
+  @if $position == top {
+    left: 0;
+    top: -100%;
+  }
+  @if $position == bottom {
+    left: 0;
+    bottom: 0;
+  }
+}
+
+body {
+  background: #333;
+  font-family: Arial;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  padding: 10vmin 0 0 0;
+  position: relative;
+  transform: translate3d(0,0,0);
+  width: 100vw;
+}
+
+.circle {
+  background: linear-gradient(to bottom, 
+    #cacaca 0%, 
+    #565146 50%);
+  border: 1px dotted #000;
+  border-radius: 50%;
+  content: '';
+  display: block;
+  left: -50%;
+  height: 100vh;
+  position: absolute;
+  top: calc(-100vh + 15vmin);
+  width: 200%;
+  &--bottom {
+    top: 35vmin;
+  }
+}
+
+.navs {
+  display: flex;
+  height: $navs-height;
+  left: 0;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  transition: all 1s ease-in-out;
+  width: $navs-width*72;
+}
+
+.navs__elm {
+  color: #aaa;
+  font-size: 80%;
+  line-height: $navs-height;
+  position: relative;
+  text-align: center;
+  width: $navs-width;
+  &:after,
+  &:before {
+    background: #555;
+    bottom: 55%;
+    display: block;
+    content: '';
+    height: 25vmin;
+    left: 50%;
+    position: absolute;
+    width: 1px;
+  }
+  &:before {
+    bottom: initial;
+    top: 55%;
+  }
+  &--side {
+    font-size: 280%;
+    font-weight: bold; 
+  }
+}
+
+.game-area {
+  perspective: 400px;
+}
+
+.timer {
+  left: 50%;
+  height: calc(#{$size} + #{$timer-element-width*2});
+  position: absolute;
+  transform: translate(-50%, #{-$timer-element-width});
+  width: calc(#{$size} + #{$timer-element-width*2});
+  &__container {
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+  }
+}
+
+.timer__elm {
+  background: #900;
+  opacity: 1;
+  position: absolute;
+  transition: all 1s linear;
+  &--top {
+    height: $timer-element-width;
+    left: 0;
+    top: 0;
+  } 
+  &--right {
+    bottom: 0;
+    right: 0;
+    width: $timer-element-width;
+  } 
+  &--bottom {
+    bottom: 0;
+    height: $timer-element-width;
+    right: 0;
+  } 
+  &--left {
+    left: 0;
+    top: 0;
+    width: $timer-element-width;
+  } 
+  .animation & {
+    display: none;
+  }
+}
+
+.board {
+  background: #a7a7a7;
+  background-size: $size auto;
+  height: $size;
+  margin: 0 auto;
+  position: relative;
+  transition: all .4s;
+  width: $size;
+  transform: rotateX(0); 
+  &--target {
+    box-shadow: 0 0 15px #332d24;
+    margin-bottom: 10vmin;
+    transform: rotateX(0deg);
+    .animation & {
+      transform: rotateX(-45deg);
+    }
+  }
+  &--puzzle {
+    background: none;
+    height: $size*1.5;
+    position: relative;
+    width: $size*1.5;
+    .animation & {
+      transform: rotateX(45deg);
+    }
+  }
+}
+
+.board__cell {
+  box-sizing: border-box;
+  float: left;
+  &--puzzle {
+    border: none;
+    position: relative;
+    transition: top .8s, left .8s, transform .2s;
+    //when on target board
+    .board__cell--target & {
+      left: 0!important;
+      margin: 0;
+      top: 0!important;
+    }
+    //when on puzzle board
+    .board--puzzle & {
+      left: 0;
+      position: absolute;
+      top: 0;
+      &:hover {
+        transform: translateY(-5%);
+      }
+    }
+    //when puzzle is resolved
+    .board--complete & * {
+      //loerm
+    }
+  }
+
+  //size based on current lvl
+  @for $lvl from 1 through 5 {
+    $val: $size/($lvl + 1);
+    .lvl-#{$lvl} & {
+      width: $val;
+      height: $val;
+    }
+  }
+}
+
+//puzzles decoration
+.board__decor {
+  background: $bg;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-size: $size;
+  &--clue {
+    background-color: transparent;
+    height: 100%;
+    opacity: 0;
+    pointer-events: none;
+    position: absolute;
+    transition: all 1s;
+    width: 100%;
+    // .animation & {
+    //   animation: rotateCompass 3.5s ease-in-out reverse infinite;
+    // }
+  }
+}
+
+@keyframes rotateCompass {
+  0% {
+    transform: rotate(0deg);
+    opacity: 0;
+  }
+  25% {
+    transform: rotate(160deg);
+    opacity: 1;
+  }
+  50% {
+    transform: rotate(60deg);
+  }
+  75% {
+    transform: rotate(220deg);
+    opacity: 1;
+  }
+  85% {
+    transform: rotate(200deg);
+  }
+  100% {
+    transform: rotate(360deg);
+    opacity: 0;
+  }
+}
+
+.board__decor--bg {
+  background-size: $size auto;
+  height: 50%;
+  width: 70%;
+}
+
+.board__decor--left {
+  .l0 & {
+    @include decor(
+      left,
+      polygon(70% 35%, 100% 25%, 100% 70%, 75% 65%)
+      );
+  }
+  .l1 & {
+    @include decor(
+      left,
+      polygon(80% 25%, 100% 30%, 100% 70%, 85% 75%)
+      );
+  }
+  .l2 & {
+    @include decor(
+      left,
+      polygon(100% 25%, 70% 35%, 100% 75%)
+      );
+  }
+  .l3 & {
+    @include decor(
+      left, 
+      polygon(100% 0, 75% 85%, 100% 100%)
+      );
+  }
+}
+
+.board__decor--right {
+  .r0 & {
+    @include decor(
+      right, 
+      polygon(70% 0%, 100% 0%, 100% 25%, 70% 35%, 75% 65%, 100% 70%, 100% 100%, 70% 100%)
+      );
+  }
+  .r1 & {
+    @include decor(
+      right,
+      polygon(70% 0%, 100% 0%, 100% 30%, 80% 25%, 85% 75%, 100% 70%, 100% 100%, 70% 100%)
+      );
+  }
+  .r2 & {
+    @include decor(
+      right, 
+      polygon(70% 0%, 100% 0%, 100% 25%, 70% 35%, 100% 75%, 100% 100%, 70% 100%)
+      );
+  }
+  .r3 & {
+    @include decor(
+      right, 
+      polygon(70% 0%, 100% 0%, 75% 85%, 100% 100%, 70% 100%)
+      );
+  }
+  .rEnd & {
+    @include decor(
+      right, 
+      polygon(70% 0%, 100% 0%, 100% 100%, 70% 100%)
+      );
+  }
+}
+
+.board__decor--top {
+  .t0 & {
+    @include decor(top, 
+      polygon(35% 100%, 40% 70%, 70% 80%, 70% 100%)
+      );
+  }
+  .t1 & {
+    @include decor(top, 
+      polygon(0% 100%, 40% 70%, 70% 70%, 70% 100%)
+      );
+  }
+  .t2 & {
+    @include decor(top, 
+      polygon(0% 100%, 20% 80%, 70% 100%)
+      );
+  }
+  .t3 & {
+    @include decor(top,
+      polygon(20% 100%, 20% 80%, 50% 80%, 70% 100%)
+      );
+  }
+}
+
+.board__decor--bottom {
+  .b0 & {
+    @include decor(bottom,
+      polygon(0% 50%, 70% 50%, 70% 100%, 70% 80%, 40% 70%, 35% 100%, 0% 100%)
+      );
+  }
+  .b1 & {
+    @include decor(bottom, 
+      polygon(0% 50%, 70% 50%, 70% 100%, 70% 70%, 40% 70%, 0% 100%)
+      );
+  }
+  .b2 & {
+    @include decor(bottom, 
+      polygon(0% 50%, 70% 50%, 70% 100%, 20% 80%, 0% 100%)
+      );
+  }
+  .b3 & {
+    @include decor(bottom,
+      polygon(0% 50%, 70% 50%, 70% 100%, 50% 80%, 20% 80%, 20% 100%, 0% 100%)
+      );
+  }
+  .bEnd & {
+    @include decor(bottom, 
+      polygon(0% 50%, 70% 50%, 70% 100%, 0% 100%)
+      );
+  }
+}
+
+//UI
+.ui {
+  left: 0;
+  height: 5vmin;
+  pointer-events: none;
+  position: absolute;
+  bottom: 23vmin;
+}
+
+.ui__btn {
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  padding: 5px 15px;
+  pointer-events: all;
+  transition: all .4s;
+  &:hover {
+    color: #777;
+  }
+}
+
+.ui__level {
+  color: #fff;
+  padding: 5px 15px;
+  font: {
+    family: Arial Black;
+    size: 50px;
+    weight: 900;
+  }
+  pointer-events: none;
+  text-align: left;
+  transition: all 1s;
+}
+
+.ui__message {
+  color: #fff;
+  font: {
+    family: Arial Black;
+    weight: 900;
+  }
+  opacity: 0;
+  position: fixed;
+  text-align: center;
+  top: 25vmin;
+  width: 100vw;
+  .animation & {
+    animation: message 1s ease-in-out;
+  }
+}
+
+@keyframes message {
+  0% {
+    transform: translateY(-50%) scale(.1);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-50%) scale(6);
+    opacity: 0;
+  }
+}
+
+
+//models
+.models {
+  display: none;
+}

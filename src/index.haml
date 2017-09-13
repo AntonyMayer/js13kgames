@@ -1,0 +1,46 @@
+.navigation
+  .navs
+  .circle
+  .circle.circle--bottom
+  
+.game-area
+  .timer
+    .timer__container
+      .timer__elm.timer__elm--x.timer__elm--top
+      .timer__elm.timer__elm--y.timer__elm--right
+      .timer__elm.timer__elm--x.timer__elm--bottom
+      .timer__elm.timer__elm--y.timer__elm--left
+  .board.board--target
+  .board.board--puzzle
+
+.ui
+  .ui__level 
+  .ui__btn.ui__level_up  	&#9650;
+  .ui__btn.ui__level_down  	&#9660;
+  .ui__btn.ui__reset RESET
+  .ui__message
+
+.models
+  .navs__elm
+  
+  //clue
+  .board__decor.board__decor--clue
+  
+  //target row model
+  .board__row.board__row--target{:"data-index" => "0"}
+  
+  //puzzle row model
+  .board__row.board__row--puzzle{:"data-index" => "0"}
+
+  //target cell model
+  .board__row.board__row--board{:"data-index" => "0"}
+    .board__cell.board__cell--target{:"data-index" => "0", :"data-target" => "0-0"}
+    
+  //puzzle element model
+  .board__row.board__row--puzzle{:"data-index" => "0"}
+    .board__cell.board__cell--puzzle{:draggable => "true", :"data-index" => "0", :"data-puzzle" => "0-0"}
+      .board__decor.board__decor--top
+      .board__decor.board__decor--right
+      .board__decor.board__decor--bottom
+      .board__decor.board__decor--left 
+      .board__decor.board__decor--bg
