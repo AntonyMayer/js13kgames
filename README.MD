@@ -1,2 +1,4 @@
 ## Puzzle game for js13kgames
-https://codepen.io/AntonyMayer/pen/gxwRpM?editors=0100
+
+Originally developed in Codepen:
+https://codepen.io/AntonyMayer/full/gxwRpM
